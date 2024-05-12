@@ -1,0 +1,55 @@
+﻿# Arquivos e diretórios do compilador
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+[Tt]est[Rr]esult*
+
+# Arquivos de projeto
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de configuração IDE / Editor
+.vs/
+.vscode/
+
+# Arquivos de configuração de ambiente
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+
+# Evitar rastrear arquivos de configuração com possíveis informações sensíveis
+*.config
+
+# Arquivos temporários gerados pelo sistema e pelo usuário
+*.tmp
+*.temp
+*.cache
+
+# Pacotes
+*.nupkg
+/packages/
+
+# Ferramentas
+*.psess
+*.vsp
+*.vspx
+
+# Outros arquivos e diretórios
+.DS_Store
+Thumbs.db
+[Aa]zure[Aa]rtifacts/
+
+# Arquivos de saída de build
+*.exe
+*.dll
+
+# node_modules
+node_modules/
+
+# Arquivos de log de build
+*.log
+*.trx
+*.xml
